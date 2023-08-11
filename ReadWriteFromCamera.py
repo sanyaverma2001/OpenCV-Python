@@ -1,9 +1,9 @@
 import cv2
 
-cap = cv2.VideoCapture(0)
+cap1 = cv2.VideoCapture(0)
 
 while(True):
-    ret,frame = cap.read()
+    ret,frame = cap1.read()
     cv2.imshow('frame',frame)
 
     if cv2.waitKey(1) == ord('q'):
